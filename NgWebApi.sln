@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgWebApi.App", "NgWebApi.App\NgWebApi.App.csproj", "{A7357B78-016C-4FB4-A2E3-44E5FBE0A773}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgWebApi.Angular", "NgWebApi.Angular\NgWebApi.Angular.csproj", "{FAA16620-B4AE-4EFF-8E09-BA223C6D2A49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A7357B78-016C-4FB4-A2E3-44E5FBE0A773}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7357B78-016C-4FB4-A2E3-44E5FBE0A773}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7357B78-016C-4FB4-A2E3-44E5FBE0A773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAA16620-B4AE-4EFF-8E09-BA223C6D2A49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA16620-B4AE-4EFF-8E09-BA223C6D2A49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA16620-B4AE-4EFF-8E09-BA223C6D2A49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA16620-B4AE-4EFF-8E09-BA223C6D2A49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
