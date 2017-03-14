@@ -3,18 +3,21 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+import { ValuesComponent } from './values/values.component';
 import { AppComponent } from './app.component';
+import { DataService } from './services/dataService';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ValuesComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
