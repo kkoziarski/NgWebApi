@@ -262,3 +262,5 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+
+NgWebApi.App/App/
