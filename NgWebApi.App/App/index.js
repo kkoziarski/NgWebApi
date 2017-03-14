@@ -1,1 +1,0 @@
-﻿alert("message from app/index.js");
