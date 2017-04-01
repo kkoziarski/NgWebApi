@@ -29,7 +29,7 @@ namespace NgWebApi.App
 
             app.UseWebApi(httpConfiguration);
 
-            // Make ./public the default root of the static files in our Web Application.
+            // Make ./app the default root of the static files in our Web Application.
             app.UseFileServer(new FileServerOptions
             {
                 RequestPath = new PathString(string.Empty),

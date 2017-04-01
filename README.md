@@ -1,4 +1,4 @@
-# ASP.NET WebAPI for Angular-Cli
+# ASP.NET WebAPI OWIN for Angular-Cli
 
 This is an ASP.NET WebAPI appliction template designed to host Angular2 SPA in **/App** directory as complete single application read for deployment.
 
@@ -83,7 +83,12 @@ Required `packages.config`
   <package id="Owin" version="1.0" targetFramework="net452" />
 </packages>
 ```
-
+## Owin Self-Host version
+In order to make the application OWIN Self-hosted run the following commands:
+```
+Uninstall-Package Microsoft.Owin.Host.SystemWeb
+Install-Package OwinHost
+```
 
 OWIN example based on [OWIN ASP.NET WebAPI SPA Template Visual Studio Extension](https://marketplace.visualstudio.com/items?itemName=OliverLohmann-MSFT.OWINASPNETWebAPISPATemplate])
 
